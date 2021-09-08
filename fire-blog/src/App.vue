@@ -1,7 +1,7 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
-      <router-view />
+      <router-view/>
     </div>
   </div>
 </template>
@@ -13,8 +13,10 @@ export default {
   data() {
     return {};
   },
-  created() {},
-  mounted() {},
+  created() {
+  },
+  mounted() {
+  },
   methods: {},
   watch: {},
 };
