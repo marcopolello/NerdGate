@@ -1,19 +1,23 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
-      <Navigation/>
+      <Navigation v-if="!navigation"/>
       <router-view/>
+      <Footer v-if="!navigation"/>
     </div>
   </div>
 </template>
 
 <script>
 import Navigation from './components/Navigation'
+import Footer from "./components/Footer"
 export default {
   name: "app",
-  components: {Navigation},
+  components: {Navigation, Footer},
   data() {
-    return {};
+    return {
+      navigation: null,
+    };
   },
   created() {
   },
