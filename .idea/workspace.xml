@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf9aa81-37a0-4e9c-a6d9-48b3fd84524f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/arrow-right-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/bars-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/edit-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/envelope-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/instagram-brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/linkedin-brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/lock-alt-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/sign-out-alt-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/times-circle-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/trash-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/twitter-brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/user-alt-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/user-crown-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Icons/youtube-brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogCards/stock-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogCards/stock-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogCards/stock-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogCards/stock-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogPhotos/beautiful-stories.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogPhotos/coding.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/blogPhotos/designed-for-everyone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebaseInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" />
+    <list default="true" id="cdf9aa81-37a0-4e9c-a6d9-48b3fd84524f" name="Default Changelist" comment="Finito Blog Card">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/components/BlogCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/components/BlogCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/components/BlogPost.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/components/BlogPost.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +29,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.21.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.26" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,10 +47,16 @@
       <option name="presentableId" value="Default" />
       <updated>1631134898360</updated>
       <workItem from="1631134900040" duration="89000" />
+      <workItem from="1632229752624" duration="562000" />
+      <workItem from="1632314361170" duration="9456000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finito Blog Card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finito Blog Card" />
   </component>
 </project>
