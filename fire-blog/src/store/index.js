@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
@@ -11,8 +11,15 @@ export default new Vuex.Store({
             { blogTitle: "Blog Card #3", blogCoverPhoto: "stock-3", blogDate: "May 1, 2021"},
             { blogTitle: "Blog Card #4", blogCoverPhoto: "stock-4", blogDate: "May 1, 2021"},
         ],
+        editPost: null,
     },
-    mutations: {},
+    mutations: {
+        //cambia lo stato di editPost da true a false e viceversa
+        toggleEditPost(state, payload) {
+            state.editPost = payload;
+            console.log(state.editPost);
+        }
+    },
     actions: {},
     modules: {}
 })

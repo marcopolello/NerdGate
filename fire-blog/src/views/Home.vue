@@ -6,7 +6,7 @@
       <div class="container">
         <h3>View More Recent Blogs</h3>
         <div class="blog-cards">
-          <BlogCard :post="post" v-for="(post,index) in sampleBlogCards" :key="index" />
+          <BlogCard :post="post" v-for="(post,index) in sampleBlogCards" :key="index"/>
         </div>
       </div>
     </div>
@@ -14,7 +14,8 @@
       <div class="container">
         <h2>never miss a post. Register for your free account today!</h2>
         <router-link class="router-button" to="#">
-          Register for FireBlogs <Arrow class="arrow arrow-light" />
+          Register for FireBlogs
+          <Arrow class="arrow arrow-light"/>
         </router-link>
       </div>
     </div>
@@ -25,6 +26,7 @@
 import BlogPost from "../components/BlogPost";
 import BlogCard from "../components/BlogCard";
 import Arrow from "../assets/Icons/arrow-right-light.svg";
+
 export default {
   name: "Home",
   components: {BlogPost, BlogCard, Arrow},
