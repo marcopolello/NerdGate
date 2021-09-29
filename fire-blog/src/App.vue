@@ -20,11 +20,28 @@ export default {
     };
   },
   created() {
+    this.checkRoute();
   },
   mounted() {
   },
-  methods: {},
-  watch: {},
+  methods: {
+    checkRoute() {
+      if (
+          this.$route.name === "Login" ||
+          this.$route.name === "Register" ||
+          this.$route.name === "ForgotPassword"
+      ) {
+        this.navigation = true;
+        return;
+      }
+      this.navigation = false;
+    }
+  },
+  watch: {
+    $route() {
+      this.checkRoute();
+    },
+  },
 };
 </script>
 

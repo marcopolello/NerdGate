@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf9aa81-37a0-4e9c-a6d9-48b3fd84524f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fire-blog/src/views/ForgotPassword.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fire-blog/src/components/BlogCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/components/BlogCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fire-blog/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fire-blog/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fire-blog/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fire-blog/src/views/Blogs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/views/Blogs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fire-blog/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fire-blog/src/views/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fire-blog/src/views/Register.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +58,7 @@
       <workItem from="1632229752624" duration="562000" />
       <workItem from="1632314361170" duration="11601000" />
       <workItem from="1632405588548" duration="12040000" />
-      <workItem from="1632926518061" duration="146000" />
+      <workItem from="1632926518061" duration="3346000" />
     </task>
     <task id="LOCAL-00001" summary="Finito Blog Card">
       <created>1632327531415</created>
@@ -75,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632904012750</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Inizio Autenticazione">
+      <created>1632926851691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632926851691</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Nuove viste login,register">
+      <created>1632926917887</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632926917887</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +105,9 @@
     <MESSAGE value="Finito Blog Card" />
     <MESSAGE value="Finito Button e sezione register free" />
     <MESSAGE value="Inizio blog view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inizio blog view" />
+    <MESSAGE value="Inizio Autenticazione" />
+    <MESSAGE value="Nuove viste login,register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuove viste login,register" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

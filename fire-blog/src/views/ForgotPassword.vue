@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Login.vue"
+  name: "ForgotPassword"
 }
 </script>
 
